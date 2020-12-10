@@ -17,13 +17,13 @@ public class TestSommDiff {
 	private double risDiff = 5.0;
 	
 	@Test
-	public void sommaTest() {
+	public void testSomma() {
 		ris = c.somma(num1, num2);
 		assertEquals(risSum, ris, 0);
 	}
 	
 	@Test
-	public void diffTest(){
+	public void testDiff(){
 		ris = c.differenza(num1, num2);
 		assertEquals(risDiff, ris, 0);
 	}

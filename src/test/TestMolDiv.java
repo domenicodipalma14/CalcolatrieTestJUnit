@@ -19,13 +19,13 @@ public class TestMolDiv {
 	private double risMol = 0;
 	
 	@Test
-	public void TestDiv(){
+	public void testDiv(){
 		ris = c.divisione(num1, num2);
 		assertEquals(risDiv, ris, 0.1);
 	}
 	
 	@Test
-	public void TestMol(){
+	public void testMol(){
 		ris = c.moltiplicazione(num1, num2);
 		assertEquals(risMol, ris, 0.1);
 	}
